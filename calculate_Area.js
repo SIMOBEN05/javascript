@@ -1,7 +1,7 @@
-let lenght;
+let length;
 let width;
-function calculateArea (lenght, width){
-    let lenght = parseFloat(document.getElementById('lenght').value);
+function calculateArea (){
+    let length = parseFloat(document.getElementById('lenght').value);
     let width = parseFloat(document.getElementById('width').value);
 
     let area = length * width;
